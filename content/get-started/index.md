@@ -69,7 +69,7 @@ To bundle the `lodash` dependency with the `index.js`, we need to import `lodash
 __app/index.js__
 
 ```diff
-+ import _ from 'lodash';
++ _ = require("lodash");
 
 function component () {
   ...
